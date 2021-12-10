@@ -168,22 +168,3 @@ time_it(ray_count_words, bitcoin_path, bitcoin_col)
 time_it(dask_count_words, bitcoin_path, bitcoin_col)
 
 time_it(spark_count_words, bitcoin_path, bitcoin_col)
-
-"""#### Largest dataset
-
-This dataset of tweets about bitcoin is 313 GB.
-
-https://www.kaggle.com/gauravduttakiit/bitcoin-tweets-16m-tweets-with-sentiment-tagged
-"""
-
-# bitcoin_big_path = './mbsa.csv'
-# bitcoin_big_col = 'text'
-# print(f"\nPreprocessing {bitcoin_big_path}")
-
-# time_it(pure_python, bitcoin_big_path, bitcoin_big_col)
-
-# time_it(ray_count_words, bitcoin_big_path, bitcoin_big_col)
-
-# time_it(dask_count_words, bitcoin_big_path, bitcoin_big_col)
-
-# time_it(spark_count_words, bitcoin_big_path, bitcoin_big_col)
